@@ -1,6 +1,6 @@
 # Fibrasyfiguras
 
-Bienvenido a la página de **Fibrasyfiguras**. Aquí presentamos una interfaz sencilla con botones de navegación y secciones informativas.
+Bienvenido a la página de **Fibrasyfiguras**.
 
 ## Vista Previa
 
