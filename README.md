@@ -1,3 +1,10 @@
+# Fibrasyfiguras
+
+Bienvenido a la página de **Fibrasyfiguras**. Aquí presentamos una interfaz sencilla con botones de navegación y secciones informativas.
+
+## Vista Previa
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 
@@ -73,7 +80,7 @@
 
     <section id="home">
         <h2>Bienvenido a Fibrasyfiguras</h2>
-        <p>Descubre nuestras ofertas de productos y servicios especializados en fibra y figuras decorativas.</p>
+        <p>Descubre nuestras ofertas de productos y servicios especializados en fibra.</p>
     </section>
 
     <section id="about">
@@ -88,7 +95,7 @@
 
     <section id="contact">
         <h2>Contacto</h2>
-        <p>Puedes contactarnos a través de nuestro correo electrónico o visitar nuestras oficinas.</p>
+        <p>Puedes contactarnos a través de nuestro correo electrónico o visitar nuestra fábrica.</p>
     </section>
 
     <footer>
