@@ -1,107 +1,79 @@
-# Fibrasyfiguras
-
-Bienvenido a la página de **Fibrasyfiguras**.
-
-## Vista Previa
-
-```html
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fibrasyfiguras</title>
+    <title>Document</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-
         header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
+            background-color: #f0f0f0;
+            padding: 10px;
             text-align: center;
         }
-
         nav {
-            margin: 0;
+            background-color: #fff;
             padding: 10px;
-            background-color: #444;
-            text-align: center;
+            display: flex;
+            justify-content: space-around;
         }
-
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            padding: 10px 20px;
-            background-color: #555;
-            border-radius: 5px;
-        }
-
-        nav a:hover {
-            background-color: #666;
-        }
-
-        section {
+        main {
+            display: flex;
+            justify-content: space-around;
             padding: 20px;
-            margin: 10px;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        footer {
-            text-align: center;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
             padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .container h3 {
+            margin-top: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
-
     <header>
-        <h1>Fibrasyfiguras</h1>
+        <h1>FIBRAS Y FIGURAS</h1>
     </header>
-
     <nav>
-        <a href="#home">Inicio</a>
-        <a href="#about">Nosotros</a>
-        <a href="#services">Servicios</a>
-        <a href="#contact">Contacto</a>
+        <a href="#">INICIO</a>
+        <a href="#">NUESTRA EMPRESA</a>
+        <a href="#">SERVICIOS</a>
+        <a href="#">GALERIA</a>
+        <a href="#">NOVEDADES</a>
+        <a href="#">CONTACTO</a>
     </nav>
-
-    <section id="home">
-        <h2>Bienvenido a Fibrasyfiguras</h2>
-        <p>Descubre nuestras ofertas de productos y servicios especializados en fibra.</p>
-    </section>
-
-    <section id="about">
-        <h2>Sobre nosotros</h2>
-        <p>Fibrasyfiguras es una empresa dedicada a la fabricación y venta de productos de alta calidad.</p>
-    </section>
-
-    <section id="services">
-        <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Puedes contactarnos a través de nuestro correo electrónico o visitar nuestra fábrica.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Fibrasyfiguras. Todos los derechos reservados.</p>
-    </footer>
-
+    <main>
+        <div class="container">
+            <h3>TANQUES</h3>
+            <img src="./f0a1e8d55e4bb6513585d8af3e238f46_203x170.webp" alt="Tanque" width="200" height="150">
+        </div>
+        <div class="container">
+            <h3>DUCTOS PARA BASURA</h3>
+            <img src="./5824228a77e269e775eb27726fd12393_220.4x174.webp" alt="Ductos para basura" width="200" height="150">
+        </div>
+        <div class="container">
+            <h3>PRODUCTOS A SU MEDIDA</h3>
+            <img src="./15400046705bca9b3e3301a.jpg" alt="Productos a su medida" width="200" height="150">
+        </div>
+    </main>
 </body>
-
 </html>
